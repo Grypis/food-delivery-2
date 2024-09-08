@@ -63,14 +63,20 @@ body {
 .logo {
     margin-right: auto;
 }
-.nav {
-}
+
 .nav-list {
     display: flex;
     gap: 28px;
 }
-.nav-list-item {
+
+.nav-link.active  {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #bbf330;
 }
+
 .nav-link {
     display: block;
     padding-top: 28px;
@@ -124,28 +130,287 @@ body {
 
 /* =================== Offering ================= */
 
+.page-offering {
+    padding-top: 113px;
+    padding-bottom: 124px;
+    background-color: #ffe550;
+}
 
 .offering-container {
+    display: flex;
+    align-items: center;
+    padding-right: 51px;
+    justify-content: space-between;
 }
 .page-offering-img-div {
+    border-radius: 100%;
+    background-color: #ffffff;
+    width: 502px;
+    height: 502px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .page-offering-div-text {
+    max-width: 573px;
 }
 .page-offering-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+
+.page-offering-text {
+    line-height: 1.5;
+    margin-bottom: 48px;
 }
 
 .page-offering-menu {
-
-}
-.page-offering-text {
-}
-.page-offering-subtitle {
-}
-.page-offering-subtext {
-}
-
-.offering-btn {
+    display: flex;
+    gap: 67px;
+    margin-bottom: 27px;
 }
 
 .page-offering-menu-item {}
+
+.page-offering-subtitle {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+.page-offering-subtext {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.offering-btn {
+    border: 2px solid #7eb101;
+    background-color: #ffffff;
+}
+
+.offering-btn:hover,
+.offering-btn:focus {
+    background-color: #bbf330;
+    border: none;
+}
 /* =================== /Offering ================= */
+
+/* =================== Favorit ================= */
+
+
+.page-favorit {
+    padding-top: 120px;
+    padding-bottom: 101px;
+}
+
+.favorit-container {
+}
+.page-favorit-title {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page-favorit-text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-favorit-menu {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.page-favorit-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 64px) / 3);
+    height: 397px;
+    border: 16px solid #ffe550;
+    border-radius: 197px;
+}
+/* =================== /Favorit ================= */
+
+/* =================== Reviews ================= */
+.page-reviews {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+}
+.reviews-container {
+}
+.page-reviews-title {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.page-reviews-text {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.page-reviews-menu {
+    display: flex;
+    gap: 139px;
+}
+.page-reviews-menu-item {
+    max-width: 501px;
+    background-color: #ffffff;
+    border-radius: 0 30px 30px 30px;
+}
+.page-reviews-desc {
+    font-size: 18px;
+    margin-top: 59px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 41px;
+}
+
+.page-reviews-clients {
+    display: flex;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    max-width: 158px;
+    align-items: center;
+}
+
+.page-reviews-img-clients {
+    margin-right: 14px;
+}
+
+.page-reviews-subtitle {
+    /* font-weight: 500; */
+    font-size: 14px;
+    line-height: 1.5;
+}
+.page-reviews-subtext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* =================== /Reviews ================= */
+
+/* =================== Subscribe ================= */
+.page-subscribe {
+    padding-top: 176px;
+    padding-bottom: 201px;
+}
+
+.page-subscribe-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-subscribe-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.page-subscribe-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.page-subscribe-form {
+}
+.page-subscribe-form-input {
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    min-width: 395px;
+    height: 42px;   
+    margin-right: 32px;
+}
+.main-btn {
+}
+/* =================== /Subscribe ================= */
+
+
+/* =================== Footer ================= */
+
+.page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/footer/backgrounf-footer-min.png);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo-footer {
+    margin-right: 148px;
+}
+
+.page-footer-nav {
+    display: flex;
+    align-items: center;
+}
+
+.page-footer-nav-menu {
+    display: flex;
+    gap: 28px; 
+}
+.page-footer-nav-menu-item {
+}
+.page-footer-nav-link {
+}
+.page-footer-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+.page-footer-subscribe-desc {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.page-footer-subscribe-form {
+    
+}
+.page-footer-subscribe-input {  
+    border: 0.85px solid #ffe550;
+    border-radius: 30px;
+    padding: 10px;
+    width: 279px;
+    height: 42px;
+    background-color: #ffffff;
+    margin-right: 13px;
+    margin-bottom: 12px;
+}
+
+.page-footer-subscribe-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+.page-footer-subscribe-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7eb101;
+}
+.page-footer-links {
+    display: flex;
+    
+}
+.page-footer-links-menu {
+    display: flex;
+    gap: 20px;
+    margin-right: auto;
+}
+.page-footer-links-menu-item {
+}
+.page-footer-links-link {
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7eb101;
+}
+.page-footer-links-text { 
+    font-size: 12px;
+
+}
+
+/* =================== /Footer ================= */

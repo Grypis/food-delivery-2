@@ -33,10 +33,10 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link active" href="./index.html">Home</a>
             </li>
             <li class="nav-list-item">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-list-item">
               <a class="nav-link" href="">Service</a>
@@ -79,7 +79,7 @@
       </section>
 
       <!-- offering section -->
-      <section class="page-offering">
+      <section id="about" class="page-offering">
         <div class="container offering-container">
           <div class="page-offering-img-div">
             <img src="./images/offering/apple-min.png" alt="apple" />
@@ -117,139 +117,228 @@
         </div>
       </section>
 
-      <section>
-        <h2>Order Now</h2>
-        <p>Looking for something delicious?</p>
-        <ul>
-          <li>
-            <img
-              src="./images/favorites/gamburger-min.png"
-              alt="gamburger"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/favorites/pasta-min.png"
-              alt="pasta"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/favorites/pizza-min.png"
-              alt="pizza"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/favorites/chicken-min.png"
-              alt="chicken"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/favorites/salat-min.png"
-              alt="salat"
-              width="315"
-              height="315"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/favorites/borshch-min.png"
-              alt="borshch"
-              width="315"
-              height="315"
-            />
-          </li>
-        </ul>
+      <!-- favorits section -->
+      <section class="page-favorit">
+        <div class="container favorit-container">
+          <h2 class="page-favorit-title">Some of Our Favorites</h2>
+          <p class="page-favorit-text">Looking for something delicious?</p>
+          <ul class="page-favorit-menu">
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/gamburger-min.png"
+                alt="gamburger"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/pasta-min.png"
+                alt="pasta"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/pizza-min.png"
+                alt="pizza"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/chicken-min.png"
+                alt="chicken"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/salat-min.png"
+                alt="salat"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="page-favorit-menu-item">
+              <img
+                class="page-favorit-img"
+                src="./images/favorites/borshch-min.png"
+                alt="borshch"
+                width="315"
+                height="315"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>What our Customers Say</h2>
-        <p>
-          Don't just take our word for it - see what our satisfied customers
-          have to say
-        </p>
-        <ul>
-          <li>
-            <p>
-              “The Best app I have used to order food in a while, so many
-              options to choose from too, I would recommend to a freind, No
-              questions asked”
+
+      <!-- reviews section -->
+      <section class="page-reviews">
+        <div class="container reviews-container">
+          <h2 class="page-reviews-title">What our Customers Say</h2>
+          <p class="page-reviews-text">
+            Don't just take our word for it - see what our satisfied customers
+            have to say
+          </p>
+          <ul class="page-reviews-menu">
+            <li class="page-reviews-menu-item">
+              <h3 class="page-reviews-desc">
+                “The Best app I have used to order food in a while, so many
+                options to choose from too, I would recommend to a freind, No
+                questions asked”
+              </h3>
+              <div class="page-reviews-clients">
+                <img
+                  class="page-reviews-img-clients"
+                  src="./images/reviews/man.png"
+                  alt="man Sumith Shah"
+                  width="48"
+                  height="48"
+                />
+                <div class="page-reviews-splitter">
+                  <h4 class="page-reviews-subtitle">Sumith Shah</h4>
+                  <p class="page-reviews-subtext">Some Dude</p>
+                </div>
+              </div>
+            </li>
+            <li class="page-reviews-menu-item">
+              <h3 class="page-reviews-desc">
+                “The ease with which I can just go in and order what i want was
+                amazing, It has been a very pleasant experience ordering from
+                this app”
+              </h3>
+              <div class="page-reviews-clients">
+                <img
+                  class="page-reviews-img-clients"
+                  src="./images/reviews/woman.png"
+                  alt="woman Sumith Shah"
+                  width="48"
+                  height="48"
+                />
+                <div class="page-reviews-splitter">
+                  <h4 class="page-reviews-subtitle">Sumith Shah</h4>
+                  <p class="page-reviews-subtext">Some Dude</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- subscribe section -->
+      <section class="page-subscribe">
+        <div class="container page-subscribe-container">
+          <div class="container-sbcs-info">
+            <h2 class="page-subscribe-title">
+              Subscribe To Get Special Offers
+            </h2>
+            <p class="page-subscribe-text">
+              Order now and receive 10% off your first meal with Enjoy Your
+              Favorite Food From Anywhere.
             </p>
+            <form class="page-subscribe-form" action="#">
+              <input
+                class="page-subscribe-form-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button class="main-btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="container-sbsc-img">
             <img
-              src="./images/reviews/man.png"
-              alt="man Sumith Shah"
-              width="48"
-              height="48"
+              class="page-subscribe-img"
+              src="./images/subscrible/banan-min.png"
+              alt="banan"
+              width="608"
+              height="266"
             />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
-          </li>
-          <li>
-            <p>
-              “The ease with which I can just go in and order what i want was
-              amazing, It has been a very pleasant experience ordering from this
-              app”
-            </p>
-            <img
-              src="./images/reviews/woman.png"
-              alt="woman Sumith Shah"
-              width="48"
-              height="48"
-            />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-        <form action="#">
-          <input type="email" placeholder="Enter your email" />
-          <button class="main-btn" type="submit">Subscribe</button>
-        </form>
-        <img
-          src="./images/subscrible/banan-min.png"
-          alt="banan"
-          width="608"
-          height="266"
-        />
-      </section>
-      <footer>
-        <a href="./index.html"
-          ><img src="./images/logo-min.png" alt="logo" width="66" height="52"
-        /></a>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-        <strong>Subscribe</strong>
-        <form action="#">
-          <input type="email" placeholder="Enter your email" />
-          <button class="main-btn" type="submit">Subscribe</button>
-        </form>
-        <p>By subscribing you agree to with our<a href="">Privacy Policy</a></p>
-        <ul>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Cookies Settings</a></li>
-        </ul>
-        <p>2022 FoodSta. All right reserved.</p>
+
+      <!-- footer section -->
+      <footer class="page-footer" >
+        <div class="container">
+          <div class="container-footer">
+            <div class="page-footer-nav">
+                <a class="logo-footer" href="./index.html"
+                ><img
+                  src="./images/logo-min.png"
+                  alt="logo"
+                  width="66"
+                  height="52"
+                /></a>
+                <ul class="page-footer-nav-menu">
+                <li class="page-footer-nav-menu-item">
+                  <a class="page-footer-nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="page-footer-nav-menu-item">
+                  <a class="page-footer-nav-link" href="">About</a>
+                </li>
+                <li class="page-footer-nav-menu-item">
+                  <a class="page-footer-nav-link" href="">Service</a>
+                </li>
+                <li class="page-footer-nav-menu-item">
+                  <a class="page-footer-nav-link" href="">Menu</a>
+                </li>
+                <li class="page-footer-nav-menu-item">
+                  <a class="page-footer-nav-link" href="">Contact</a>
+                </li>
+                </ul>
+              </div>
+
+              <div class="page-footer-subscribe">
+                <strong class="page-footer-subscribe-desc">Subscribe</strong>
+                <form class="page-footer-subscribe-form" action="#">
+                <input
+                  class="page-footer-subscribe-input"
+                  type="email"
+                  placeholder="Enter your email"
+                />
+                <button class="main-btn" type="submit">Subscribe</button>
+                </form>
+                <p class="page-footer-subscribe-text">
+                By subscribing you agree to with our
+                <a class="page-footer-subscribe-link" href="">Privacy Policy</a>
+                </p>
+              </div>
+            
+            </div>
+          
+
+            </div>
+
+          
+          
+          
+            <div class="page-footer-links">
+              <ul class="page-footer-links-menu">
+                <li class="page-footer-links-menu-item">
+                  <a class="page-footer-links-link" href="">Privacy Policy</a>
+                </li>
+                <li class="page-footer-links-menu-item">
+                  <a class="page-footer-links-link" href="">Terms of Service</a>
+                </li>
+                <li class="page-footer-links-menu-item">
+                  <a class="page-footer-links-link" href="">Cookies Settings</a>
+                </li>
+              </ul>
+              <p class="page-footer-links-text">
+                2022 FoodSta. All right reserved.
+              </p>
+            </div>
+
+        </div>
       </footer>
     </main>
   </body>
