@@ -332,6 +332,9 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: url(../images/footer/backgrounf-footer-min.png);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .container-footer {
