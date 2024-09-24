@@ -49,7 +49,9 @@
             </li>
           </ul>
         </nav>
-        <button class="main-btn" type="button">Order Now</button>
+        <button class="main-btn" type="button" data-modal-open>
+          Order Now
+        </button>
       </div>
     </header>
     <main>
@@ -331,12 +333,11 @@
             2022 FoodSta. All right reserved.
           </p>
         </div>
-        <!-- </div> -->
       </footer>
 
-      <div class="backdrop is-open">
+      <div class="backdrop is-open" data-modal>
         <div class="modal">
-          <button type="button" class="modal-close-btn">
+          <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="modal-close-icon" width="11" height="11">
               <use href="./images/sprite.svg#icon-cross"></use>
             </svg>
@@ -383,10 +384,27 @@
               />
             </div>
 
+            <div class="input-wrapp">
+              <input
+                type="checkbox"
+                class="check visually-hidden"
+                id="user-checkbox"
+                name="user-checkbox"
+              />
+              <label for="user-checkbox" class="input-check-text"
+                ><span class="checkbox">
+                  <svg class="check-icon" width="10" height="8">
+                    <use href="./images/sprite.svg#icon-mark"></use></svg></span
+                >I accept the terms and conditions of the
+                <a href="" class="checkbox-link">Privacy Policy</a></label
+              >
+            </div>
+
             <button class="modal-btn" type="submit">Send</button>
           </form>
         </div>
       </div>
     </main>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
